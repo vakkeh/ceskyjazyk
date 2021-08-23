@@ -38,6 +38,19 @@
 	font-weight: 700;
 }
 
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
 @media only screen and (min-width: 960px) {
 	.header, .welcome-text,.contact-us{
 		position: relative;
@@ -51,7 +64,7 @@
 		overflow: hidden;
 		width: 100vw;
 		height: 100vh;
-		background-image: url("res/bg-xs.jpg");
+		background-image: url("res/bg-xs-anim.gif");
 	}
 
 	.header, .welcome-text,.contact-us{
